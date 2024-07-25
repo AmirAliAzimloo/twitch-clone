@@ -2,8 +2,10 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <Button >
-      Hello World !
-    </Button>
+    <>
+    <div>
+      Only authenticated users can see this
+    </div>
+    </>
   );
 }
