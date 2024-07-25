@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 
 import { Navbar } from "./_components/navbar";
-// import { Container } from "./_components/container";
+import { Container } from "./_components/container";
 import { Sidebar, SidebarSkeleton } from "./_components/sidebar";
 
 const BrowseLayout = ({
@@ -16,9 +16,9 @@ const BrowseLayout = ({
         <Suspense fallback={<SidebarSkeleton />}>
           <Sidebar />
         </Suspense>
-        {/* <Container> */}
+        <Container>
           {children}
-        {/* </Container> */}
+        </Container>
       </div>
     </>
   );

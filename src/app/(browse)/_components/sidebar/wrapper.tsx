@@ -24,7 +24,7 @@ export const Wrapper = ({ children }: WrapperProps) => {
   // useEffect(() => {
   //   const handleMouseMove = (e: MouseEvent) => {
   //     if (isResizing.current) {
-  //       const newWidth = Math.max(70, Math.min(250, e.clientX));
+  //       const newWidth = Math.max(70, Math.min(240, e.clientX));
   //       setWidth(newWidth);
   //     }
   //   };
