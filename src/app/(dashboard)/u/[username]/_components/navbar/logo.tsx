@@ -26,7 +26,7 @@ export const Logo = () => {
           font.className
         )}>
           <p className="text-lg font-semibold">
-            Gamehub
+            Twitch Clone
           </p>
           <p className="text-xs text-muted-foreground">
             Creator dashboard
