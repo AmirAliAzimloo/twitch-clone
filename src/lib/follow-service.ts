@@ -80,7 +80,7 @@ export const followUser = async (id: string) => {
   const self = await getSelf();
 
   const otherUser = await db.user.findUnique({
-    where: { externalUserId : id },
+    where: { id },
   });
 
   if (!otherUser) {

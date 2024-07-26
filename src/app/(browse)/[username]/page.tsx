@@ -32,7 +32,7 @@ const UserPage = async ({
     <>
     <div>
       {user.username}
-      <Actions isFollowing={isFollowing} userId={user.externalUserId} />
+      <Actions isFollowing={isFollowing} userId={user.id} />
     </div>
     </>
   );
