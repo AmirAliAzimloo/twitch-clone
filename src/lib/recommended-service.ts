@@ -81,6 +81,5 @@ export const getRecommended = async () => {
       ]
     });
   }
-
   return users;
 };
