@@ -20,6 +20,7 @@ export const CopyButton = ({
     setIsCopied(true);
     navigator.clipboard.writeText(value);
     setTimeout(() => {
+      
       setIsCopied(false);
     }, 1000);
   };
