@@ -64,7 +64,7 @@ export const createIngress = async (ingressType: IngressInput) => {
       source: TrackSource.MICROPHONE,
       preset: IngressAudioEncodingPreset.OPUS_STEREO_96KBPS
     };
-  };
+  }; 
 
   const ingress = await ingressClient.createIngress(
     ingressType,
