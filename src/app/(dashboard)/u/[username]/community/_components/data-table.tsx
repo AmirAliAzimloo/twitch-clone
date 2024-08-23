@@ -52,7 +52,6 @@ export function DataTable<TData, TValue>({
       sorting,
       columnFilters,
     },
-    
   })
 
   return (
