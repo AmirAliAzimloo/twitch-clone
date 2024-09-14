@@ -24,7 +24,7 @@ const UserPage = async ({
   const isFollowing = await isFollowingUser(user.id);
   const isBlocked = await isBlockedByUser(user.id);
 
-  if (isBlocked) {
+  if (isBlocked) { 
     notFound();
   }
 
