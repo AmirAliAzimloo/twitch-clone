@@ -16,7 +16,7 @@ const CommunityPage = async () => {
     createdAt: format(new Date(block.blocked.createdAt), "dd/MM/yyyy"),
   }));
 
-  return ( 
+  return (  
     <div className="p-6">
       <div className="mb-4">
         <h1 className="text-2xl font-bold">
