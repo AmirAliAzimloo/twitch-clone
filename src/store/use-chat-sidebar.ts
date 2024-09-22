@@ -15,7 +15,7 @@ interface ChatSidebarStore {
 
 export const useChatSidebar = create<ChatSidebarStore>((set) => ({
   collapsed: false,
-  variant: ChatVariant.CHAT, 
+  variant: ChatVariant.CHAT,  
   onExpand: () => set(() => ({ collapsed: false })),
   onCollapse: () => set(() => ({ collapsed: true })),
   onChangeVariant: (variant: ChatVariant) => set(() => ({ variant })),
