@@ -24,7 +24,7 @@ export default function RootLayout({
     appearance={{
       baseTheme: [neobrutalism]
     }}
-    >
+    > 
       <html lang="en">
         <body className={inter.className}>
           <ThemeProvider
