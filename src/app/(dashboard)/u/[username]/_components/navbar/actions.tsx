@@ -11,7 +11,7 @@ export const Actions = () => {
         size="sm"
         variant="ghost"
         className="text-muted-foreground hover:text-primary"
-        asChild
+        asChild={true}
       >
         <Link href="/">
           <LogOut className="h-5 w-5 mr-2" />
