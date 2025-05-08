@@ -20,14 +20,14 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode; 
+  children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider 
-    appearance={{
-      baseTheme: [neobrutalism]
-    }}
-    > 
+    <ClerkProvider
+      appearance={{
+        baseTheme: [neobrutalism]
+      }}
+    >
       <html lang="en">
         <body className={inter.className}>
           <ThemeProvider
